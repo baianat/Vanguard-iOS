@@ -1,0 +1,16 @@
+PODS:
+  - Vanguard (0.1.0)
+
+DEPENDENCIES:
+  - Vanguard (from `../`)
+
+EXTERNAL SOURCES:
+  Vanguard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Vanguard: c360f27c29d2658a9d751a419438c6c0a9c6bfed
+
+PODFILE CHECKSUM: 2e7a0326f87e41eef596cc723671baf1d5f3d765
+
+COCOAPODS: 1.10.0

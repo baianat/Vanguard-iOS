@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D1B35BF93AB28C9816EDE3144185BB7 /* Vanguard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A61FD6D2FDB7532F5922C2ACAE6FC359 /* Vanguard-dummy.m */; };
+		49C1220F0B82B9FA97CF30A46EF23E75 /* Pods-Vanguard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 828A4A01606C11BCDAFF02EFDE91134B /* Pods-Vanguard_Tests-dummy.m */; };
+		5262F2B6261EFA400054AF4C /* ComponentsHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262F297261EFA400054AF4C /* ComponentsHolder.swift */; };
+		5262F2B7261EFA400054AF4C /* Vanguard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262F298261EFA400054AF4C /* Vanguard.swift */; };
+		5262F2B8261EFA400054AF4C /* VanguardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262F29A261EFA400054AF4C /* VanguardComponent.swift */; };
+		5262F2B9261EFA400054AF4C /* DefaultValidationCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262F29C261EFA400054AF4C /* DefaultValidationCase.swift */; };
+		5262F2BA261EFA400054AF4C /* TextViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262F29E261EFA400054AF4C /* TextViewComponent.swift */; };
+		5262F2BB261EFA400054AF4C /* ValueComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262F29F261EFA400054AF4C /* ValueComponent.swift */; };
+		5262F2BC261EFA400054AF4C /* TextFieldComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262F2A0261EFA400054AF4C /* TextFieldComponent.swift */; };
+		5262F2BD261EFA400054AF4C /* ValidationCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262F2A1261EFA400054AF4C /* ValidationCase.swift */; };
+		5262F2BE261EFA400054AF4C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 5262F2A2261EFA400054AF4C /* .gitkeep */; };
+		5262F2BF261EFA400054AF4C /* Vanguard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262F2A3261EFA400054AF4C /* Vanguard+Extensions.swift */; };
+		5262F2C0261EFA400054AF4C /* VanguardInputTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262F2A4261EFA400054AF4C /* VanguardInputTheme.swift */; };
+		5262F2C1261EFA400054AF4C /* FormStatusResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262F2A6261EFA400054AF4C /* FormStatusResult.swift */; };
+		5262F2C2261EFA400054AF4C /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262F2A7261EFA400054AF4C /* ValidationResult.swift */; };
+		5262F2C3261EFA400054AF4C /* VanguardUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262F2A8261EFA400054AF4C /* VanguardUtils.swift */; };
+		5262F2C4261EFA400054AF4C /* VanguardRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262F2AB261EFA400054AF4C /* VanguardRules.swift */; };
+		5262F2C5261EFA400054AF4C /* DefaultRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262F2AC261EFA400054AF4C /* DefaultRules.swift */; };
+		5262F2C6261EFA400054AF4C /* Rules+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262F2AD261EFA400054AF4C /* Rules+Extensions.swift */; };
+		5262F2C7261EFA400054AF4C /* DefaultRules2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262F2AE261EFA400054AF4C /* DefaultRules2.swift */; };
+		5262F2C8261EFA400054AF4C /* Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262F2AF261EFA400054AF4C /* Rule.swift */; };
+		5262F2C9261EFA400054AF4C /* Vanguard.h in Headers */ = {isa = PBXBuildFile; fileRef = 5262F2B0261EFA400054AF4C /* Vanguard.h */; };
+		5262F2CB261EFA400054AF4C /* UIViewController+VanguardExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262F2B2261EFA400054AF4C /* UIViewController+VanguardExtensions.swift */; };
+		5262F2CC261EFA400054AF4C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 5262F2B4261EFA400054AF4C /* .gitkeep */; };
+		5262F2CD261EFA400054AF4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5262F2B5261EFA400054AF4C /* Assets.xcassets */; };
+		B73636F8DF26418FB3C323C0994C35F3 /* Vanguard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B5FE0267D9EC80C9B3D17B89C4D06B /* Vanguard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8CDD4450D34BB4AFB4A8E9805C75289 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EC0DF7ABC7ABE106672A1B3360DC8052 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FD1BC4950A98BE245F0C683F7B939C8C /* Pods-Vanguard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EADDEE67B8B6F38A8BF001941B076B22 /* Pods-Vanguard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A9E6D8762D1A66EF0FF5B4A0696D207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB767E3A3A9B2C81BB5F161C614B08E3;
+			remoteInfo = Vanguard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D2003D282004D80C8802470178E5A2 /* Pods-Vanguard_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vanguard_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0B66B5740B8B5974C443632553098195 /* Pods-Vanguard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vanguard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0EAA62F979AF35BC349A7F3BA1B3D5A4 /* Vanguard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Vanguard.modulemap; sourceTree = "<group>"; };
+		15C78681D95211F626F87074477BAA75 /* Pods-Vanguard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vanguard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BCB138E0616ED64242783E43BAC4146 /* Vanguard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Vanguard-prefix.pch"; sourceTree = "<group>"; };
+		23FE585638DAC69A545343C202444A46 /* Vanguard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Vanguard.debug.xcconfig; sourceTree = "<group>"; };
+		2F9130DB79C6046D0ED5DB8B8EB35C59 /* Pods_Vanguard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vanguard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		369704F96C3C579D5484E40110CC843E /* Vanguard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Vanguard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		38C4E3CF57122AE486B99F52B24EED7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3943A5298FD0CECA1DFEEB254C4A0762 /* Pods-Vanguard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vanguard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5262F297261EFA400054AF4C /* ComponentsHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentsHolder.swift; sourceTree = "<group>"; };
+		5262F298261EFA400054AF4C /* Vanguard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vanguard.swift; sourceTree = "<group>"; };
+		5262F29A261EFA400054AF4C /* VanguardComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VanguardComponent.swift; sourceTree = "<group>"; };
+		5262F29C261EFA400054AF4C /* DefaultValidationCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultValidationCase.swift; sourceTree = "<group>"; };
+		5262F29E261EFA400054AF4C /* TextViewComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewComponent.swift; sourceTree = "<group>"; };
+		5262F29F261EFA400054AF4C /* ValueComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueComponent.swift; sourceTree = "<group>"; };
+		5262F2A0261EFA400054AF4C /* TextFieldComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldComponent.swift; sourceTree = "<group>"; };
+		5262F2A1261EFA400054AF4C /* ValidationCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationCase.swift; sourceTree = "<group>"; };
+		5262F2A2261EFA400054AF4C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		5262F2A3261EFA400054AF4C /* Vanguard+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Vanguard+Extensions.swift"; sourceTree = "<group>"; };
+		5262F2A4261EFA400054AF4C /* VanguardInputTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VanguardInputTheme.swift; sourceTree = "<group>"; };
+		5262F2A6261EFA400054AF4C /* FormStatusResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormStatusResult.swift; sourceTree = "<group>"; };
+		5262F2A7261EFA400054AF4C /* ValidationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
+		5262F2A8261EFA400054AF4C /* VanguardUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VanguardUtils.swift; sourceTree = "<group>"; };
+		5262F2AB261EFA400054AF4C /* VanguardRules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VanguardRules.swift; sourceTree = "<group>"; };
+		5262F2AC261EFA400054AF4C /* DefaultRules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultRules.swift; sourceTree = "<group>"; };
+		5262F2AD261EFA400054AF4C /* Rules+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Rules+Extensions.swift"; sourceTree = "<group>"; };
+		5262F2AE261EFA400054AF4C /* DefaultRules2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultRules2.swift; sourceTree = "<group>"; };
+		5262F2AF261EFA400054AF4C /* Rule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rule.swift; sourceTree = "<group>"; };
+		5262F2B0261EFA400054AF4C /* Vanguard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vanguard.h; sourceTree = "<group>"; };
+		5262F2B2261EFA400054AF4C /* UIViewController+VanguardExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+VanguardExtensions.swift"; sourceTree = "<group>"; };
+		5262F2B4261EFA400054AF4C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		5262F2B5261EFA400054AF4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		632B9C986FE624B437CC7D3A265D8A80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		707BB708B7F04406240753D214697840 /* Pods-Vanguard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vanguard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7FCA6132BDAD65C4CF2EEBD9269D6415 /* Vanguard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Vanguard-Info.plist"; sourceTree = "<group>"; };
+		828A4A01606C11BCDAFF02EFDE91134B /* Pods-Vanguard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vanguard_Tests-dummy.m"; sourceTree = "<group>"; };
+		865FC5101115C79E2EE23EB4E3F0D4C7 /* Pods-Vanguard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vanguard_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A61FD6D2FDB7532F5922C2ACAE6FC359 /* Vanguard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Vanguard-dummy.m"; sourceTree = "<group>"; };
+		B0B5FE0267D9EC80C9B3D17B89C4D06B /* Vanguard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Vanguard-umbrella.h"; sourceTree = "<group>"; };
+		BBA20AA6CE7C6CE9634C5554DC53AD67 /* Vanguard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Vanguard.release.xcconfig; sourceTree = "<group>"; };
+		E09CC674A8A5BA51CE621B447FBA2DA5 /* Vanguard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Vanguard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADDEE67B8B6F38A8BF001941B076B22 /* Pods-Vanguard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vanguard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F1ECD0BD553DA36C675D6CE995FBD4BD /* Pods-Vanguard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Vanguard_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06C71E8B2962A4D0E1A0DCE261BF3F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0DF7ABC7ABE106672A1B3360DC8052 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4BA99CCA53DD822B63E965796E3337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CDD4450D34BB4AFB4A8E9805C75289 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10CF1719B62A4A476CA28E259C092D09 /* Pods-Vanguard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F1ECD0BD553DA36C675D6CE995FBD4BD /* Pods-Vanguard_Tests.modulemap */,
+				707BB708B7F04406240753D214697840 /* Pods-Vanguard_Tests-acknowledgements.markdown */,
+				0B66B5740B8B5974C443632553098195 /* Pods-Vanguard_Tests-acknowledgements.plist */,
+				828A4A01606C11BCDAFF02EFDE91134B /* Pods-Vanguard_Tests-dummy.m */,
+				03D2003D282004D80C8802470178E5A2 /* Pods-Vanguard_Tests-frameworks.sh */,
+				865FC5101115C79E2EE23EB4E3F0D4C7 /* Pods-Vanguard_Tests-Info.plist */,
+				EADDEE67B8B6F38A8BF001941B076B22 /* Pods-Vanguard_Tests-umbrella.h */,
+				15C78681D95211F626F87074477BAA75 /* Pods-Vanguard_Tests.debug.xcconfig */,
+				3943A5298FD0CECA1DFEEB254C4A0762 /* Pods-Vanguard_Tests.release.xcconfig */,
+			);
+			name = "Pods-Vanguard_Tests";
+			path = "Target Support Files/Pods-Vanguard_Tests";
+			sourceTree = "<group>";
+		};
+		29AD8A8FF90DB043DD4B635028429770 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EAA62F979AF35BC349A7F3BA1B3D5A4 /* Vanguard.modulemap */,
+				A61FD6D2FDB7532F5922C2ACAE6FC359 /* Vanguard-dummy.m */,
+				7FCA6132BDAD65C4CF2EEBD9269D6415 /* Vanguard-Info.plist */,
+				1BCB138E0616ED64242783E43BAC4146 /* Vanguard-prefix.pch */,
+				B0B5FE0267D9EC80C9B3D17B89C4D06B /* Vanguard-umbrella.h */,
+				23FE585638DAC69A545343C202444A46 /* Vanguard.debug.xcconfig */,
+				BBA20AA6CE7C6CE9634C5554DC53AD67 /* Vanguard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Vanguard";
+			sourceTree = "<group>";
+		};
+		3D9E7A6FC6496F1003978272F7A9DBAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F9130DB79C6046D0ED5DB8B8EB35C59 /* Pods_Vanguard_Tests.framework */,
+				E09CC674A8A5BA51CE621B447FBA2DA5 /* Vanguard.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FE4C3EA0E3E0CC0DCD7FAF0517E27B9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6283AC5082008AD39530BB21B12F44C /* Vanguard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4D3CDF3A48FC524F91494EDC3CA92B89 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10CF1719B62A4A476CA28E259C092D09 /* Pods-Vanguard_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5262F294261EFA400054AF4C /* Vanguard */ = {
+			isa = PBXGroup;
+			children = (
+				5262F295261EFA400054AF4C /* Classes */,
+				5262F2B3261EFA400054AF4C /* Assets */,
+			);
+			path = Vanguard;
+			sourceTree = "<group>";
+		};
+		5262F295261EFA400054AF4C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5262F296261EFA400054AF4C /* ComponentsHolder */,
+				5262F298261EFA400054AF4C /* Vanguard.swift */,
+				5262F299261EFA400054AF4C /* ValidationCases */,
+				5262F2A2261EFA400054AF4C /* .gitkeep */,
+				5262F2A3261EFA400054AF4C /* Vanguard+Extensions.swift */,
+				5262F2A4261EFA400054AF4C /* VanguardInputTheme.swift */,
+				5262F2A5261EFA400054AF4C /* Status */,
+				5262F2A8261EFA400054AF4C /* VanguardUtils.swift */,
+				5262F2A9261EFA400054AF4C /* Rules */,
+				5262F2B0261EFA400054AF4C /* Vanguard.h */,
+				5262F2B2261EFA400054AF4C /* UIViewController+VanguardExtensions.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5262F296261EFA400054AF4C /* ComponentsHolder */ = {
+			isa = PBXGroup;
+			children = (
+				5262F297261EFA400054AF4C /* ComponentsHolder.swift */,
+			);
+			path = ComponentsHolder;
+			sourceTree = "<group>";
+		};
+		5262F299261EFA400054AF4C /* ValidationCases */ = {
+			isa = PBXGroup;
+			children = (
+				5262F29A261EFA400054AF4C /* VanguardComponent.swift */,
+				5262F29B261EFA400054AF4C /* DefaultCases */,
+				5262F29D261EFA400054AF4C /* DefaultComponents */,
+				5262F2A1261EFA400054AF4C /* ValidationCase.swift */,
+			);
+			path = ValidationCases;
+			sourceTree = "<group>";
+		};
+		5262F29B261EFA400054AF4C /* DefaultCases */ = {
+			isa = PBXGroup;
+			children = (
+				5262F29C261EFA400054AF4C /* DefaultValidationCase.swift */,
+			);
+			path = DefaultCases;
+			sourceTree = "<group>";
+		};
+		5262F29D261EFA400054AF4C /* DefaultComponents */ = {
+			isa = PBXGroup;
+			children = (
+				5262F29E261EFA400054AF4C /* TextViewComponent.swift */,
+				5262F29F261EFA400054AF4C /* ValueComponent.swift */,
+				5262F2A0261EFA400054AF4C /* TextFieldComponent.swift */,
+			);
+			path = DefaultComponents;
+			sourceTree = "<group>";
+		};
+		5262F2A5261EFA400054AF4C /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				5262F2A6261EFA400054AF4C /* FormStatusResult.swift */,
+				5262F2A7261EFA400054AF4C /* ValidationResult.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		5262F2A9261EFA400054AF4C /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				5262F2AA261EFA400054AF4C /* DefaultRules */,
+				5262F2AF261EFA400054AF4C /* Rule.swift */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
+		5262F2AA261EFA400054AF4C /* DefaultRules */ = {
+			isa = PBXGroup;
+			children = (
+				5262F2AB261EFA400054AF4C /* VanguardRules.swift */,
+				5262F2AC261EFA400054AF4C /* DefaultRules.swift */,
+				5262F2AD261EFA400054AF4C /* Rules+Extensions.swift */,
+				5262F2AE261EFA400054AF4C /* DefaultRules2.swift */,
+			);
+			path = DefaultRules;
+			sourceTree = "<group>";
+		};
+		5262F2B3261EFA400054AF4C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5262F2B4261EFA400054AF4C /* .gitkeep */,
+				5262F2B5261EFA400054AF4C /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BB0BB8A0833EFAB28410985D21351639 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				38C4E3CF57122AE486B99F52B24EED7F /* LICENSE */,
+				632B9C986FE624B437CC7D3A265D8A80 /* README.md */,
+				369704F96C3C579D5484E40110CC843E /* Vanguard.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3FE4C3EA0E3E0CC0DCD7FAF0517E27B9 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3D9E7A6FC6496F1003978272F7A9DBAA /* Products */,
+				4D3CDF3A48FC524F91494EDC3CA92B89 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6283AC5082008AD39530BB21B12F44C /* Vanguard */ = {
+			isa = PBXGroup;
+			children = (
+				5262F294261EFA400054AF4C /* Vanguard */,
+				BB0BB8A0833EFAB28410985D21351639 /* Pod */,
+				29AD8A8FF90DB043DD4B635028429770 /* Support Files */,
+			);
+			name = Vanguard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BB1331F3EC126CF45A2415B44ECEE16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5262F2C9261EFA400054AF4C /* Vanguard.h in Headers */,
+				FD1BC4950A98BE245F0C683F7B939C8C /* Pods-Vanguard_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF445C0903D3C84C49D2A41ADB822143 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B73636F8DF26418FB3C323C0994C35F3 /* Vanguard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BB767E3A3A9B2C81BB5F161C614B08E3 /* Vanguard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6154BAF0A3DBA9A65395ACAA4CB86A94 /* Build configuration list for PBXNativeTarget "Vanguard" */;
+			buildPhases = (
+				FF445C0903D3C84C49D2A41ADB822143 /* Headers */,
+				64020712BEC9D0113BF780167357D633 /* Sources */,
+				9C4BA99CCA53DD822B63E965796E3337 /* Frameworks */,
+				CAFA69FC3E8F18FB2BAC3A27044032BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vanguard;
+			productName = Vanguard;
+			productReference = E09CC674A8A5BA51CE621B447FBA2DA5 /* Vanguard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E17AD70E0F2F8DDBDB2C4EADDC42FFE8 /* Pods-Vanguard_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA712EB26BFB4ACB39FA7DD9E506CE5A /* Build configuration list for PBXNativeTarget "Pods-Vanguard_Tests" */;
+			buildPhases = (
+				2BB1331F3EC126CF45A2415B44ECEE16 /* Headers */,
+				CEFAE234DC2BD662CF270E7434F501AD /* Sources */,
+				06C71E8B2962A4D0E1A0DCE261BF3F70 /* Frameworks */,
+				D6A5C28F3413CA1094F937159BBE688D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E90F8BF543709503804572037C36EDE /* PBXTargetDependency */,
+			);
+			name = "Pods-Vanguard_Tests";
+			productName = "Pods-Vanguard_Tests";
+			productReference = 2F9130DB79C6046D0ED5DB8B8EB35C59 /* Pods_Vanguard_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3D9E7A6FC6496F1003978272F7A9DBAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E17AD70E0F2F8DDBDB2C4EADDC42FFE8 /* Pods-Vanguard_Tests */,
+				BB767E3A3A9B2C81BB5F161C614B08E3 /* Vanguard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFA69FC3E8F18FB2BAC3A27044032BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A5C28F3413CA1094F937159BBE688D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5262F2CC261EFA400054AF4C /* .gitkeep in Resources */,
+				5262F2CD261EFA400054AF4C /* Assets.xcassets in Resources */,
+				5262F2BE261EFA400054AF4C /* .gitkeep in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64020712BEC9D0113BF780167357D633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D1B35BF93AB28C9816EDE3144185BB7 /* Vanguard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFAE234DC2BD662CF270E7434F501AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5262F2B9261EFA400054AF4C /* DefaultValidationCase.swift in Sources */,
+				5262F2C2261EFA400054AF4C /* ValidationResult.swift in Sources */,
+				5262F2C4261EFA400054AF4C /* VanguardRules.swift in Sources */,
+				5262F2BA261EFA400054AF4C /* TextViewComponent.swift in Sources */,
+				49C1220F0B82B9FA97CF30A46EF23E75 /* Pods-Vanguard_Tests-dummy.m in Sources */,
+				5262F2B8261EFA400054AF4C /* VanguardComponent.swift in Sources */,
+				5262F2C7261EFA400054AF4C /* DefaultRules2.swift in Sources */,
+				5262F2C6261EFA400054AF4C /* Rules+Extensions.swift in Sources */,
+				5262F2C8261EFA400054AF4C /* Rule.swift in Sources */,
+				5262F2C3261EFA400054AF4C /* VanguardUtils.swift in Sources */,
+				5262F2C1261EFA400054AF4C /* FormStatusResult.swift in Sources */,
+				5262F2B7261EFA400054AF4C /* Vanguard.swift in Sources */,
+				5262F2CB261EFA400054AF4C /* UIViewController+VanguardExtensions.swift in Sources */,
+				5262F2B6261EFA400054AF4C /* ComponentsHolder.swift in Sources */,
+				5262F2BB261EFA400054AF4C /* ValueComponent.swift in Sources */,
+				5262F2BF261EFA400054AF4C /* Vanguard+Extensions.swift in Sources */,
+				5262F2BD261EFA400054AF4C /* ValidationCase.swift in Sources */,
+				5262F2C5261EFA400054AF4C /* DefaultRules.swift in Sources */,
+				5262F2C0261EFA400054AF4C /* VanguardInputTheme.swift in Sources */,
+				5262F2BC261EFA400054AF4C /* TextFieldComponent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E90F8BF543709503804572037C36EDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Vanguard;
+			target = BB767E3A3A9B2C81BB5F161C614B08E3 /* Vanguard */;
+			targetProxy = 9A9E6D8762D1A66EF0FF5B4A0696D207 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05839C50E4D5B06C7774CE22E31409CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3943A5298FD0CECA1DFEEB254C4A0762 /* Pods-Vanguard_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vanguard_Tests/Pods-Vanguard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vanguard_Tests/Pods-Vanguard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A7C520FDC0A085B02752EDE85BE3068C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23FE585638DAC69A545343C202444A46 /* Vanguard.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Vanguard/Vanguard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Vanguard/Vanguard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Vanguard/Vanguard.modulemap";
+				PRODUCT_MODULE_NAME = Vanguard;
+				PRODUCT_NAME = Vanguard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4548D832863972897CFBD2234284A88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15C78681D95211F626F87074477BAA75 /* Pods-Vanguard_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vanguard_Tests/Pods-Vanguard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vanguard_Tests/Pods-Vanguard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6E120FE4926570C92519AC892EDD927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA20AA6CE7C6CE9634C5554DC53AD67 /* Vanguard.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Vanguard/Vanguard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Vanguard/Vanguard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Vanguard/Vanguard.modulemap";
+				PRODUCT_MODULE_NAME = Vanguard;
+				PRODUCT_NAME = Vanguard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6154BAF0A3DBA9A65395ACAA4CB86A94 /* Build configuration list for PBXNativeTarget "Vanguard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C520FDC0A085B02752EDE85BE3068C /* Debug */,
+				F6E120FE4926570C92519AC892EDD927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA712EB26BFB4ACB39FA7DD9E506CE5A /* Build configuration list for PBXNativeTarget "Pods-Vanguard_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4548D832863972897CFBD2234284A88 /* Debug */,
+				05839C50E4D5B06C7774CE22E31409CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

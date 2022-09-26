@@ -1,0 +1,22 @@
+{
+  "name": "Vanguard",
+  "version": "0.1.0",
+  "summary": "A short description of Vanguard.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ahmed Tarek/Vanguard",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ahmed Tarek": "ahmedtarek@baianat.com"
+  },
+  "source": {
+    "git": "https://github.com/Ahmed Tarek/Vanguard.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Vanguard/Classes/**/*"
+}

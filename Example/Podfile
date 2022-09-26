@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Vanguard_Tests' do
+  pod 'Vanguard', :path => '../'
+  
+  
+end
